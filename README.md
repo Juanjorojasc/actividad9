@@ -1,10 +1,17 @@
-# 🗳️ Simulador de Centro de Votación
+Descripción del proyecto:
+Este es un simulador de centro de votación en Python con interfaz gráfica (tkinter). Permite configurar salones, mesas y jurados, cargar votantes, registrar asistencia y cargar resultados. También genera estadísticas (con pandas) y gráficos (con matplotlib).
 
-Aplicación de escritorio con interfaz gráfica hecha en Python con `tkinter`, que simula un centro de votación con jurados, votantes, asistencia y resultados.
+Instrucciones para instalar dependencias:
 
-## ✅ Requisitos
-
-Instala las dependencias:
-
-```bash
+bash
+Copiar
+Editar
 pip install pandas matplotlib
+Instrucciones para ejecutar el programa:
+
+bash
+Copiar
+Editar
+python centro_votaciones.py
+Nota sobre los archivos planos:
+Se requiere tener en la misma carpeta los archivos de ejemplo voters.csv y resultados.json para probar la carga de votantes y resultados.
