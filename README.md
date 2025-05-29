@@ -1,17 +1,44 @@
-Descripción del proyecto:
-Este es un simulador de centro de votación en Python con interfaz gráfica (tkinter). Permite configurar salones, mesas y jurados, cargar votantes, registrar asistencia y cargar resultados. También genera estadísticas (con pandas) y gráficos (con matplotlib).
+## 📦 Requisitos
 
-Instrucciones para instalar dependencias:
+Antes de ejecutar el programa, asegúrate de tener Python 3 instalado y ejecutar:
 
-bash
-Copiar
-Editar
+```bash
 pip install pandas matplotlib
-Instrucciones para ejecutar el programa:
+```
 
-bash
-Copiar
-Editar
-python centro_votaciones.py
-Nota sobre los archivos planos:
-Se requiere tener en la misma carpeta los archivos de ejemplo voters.csv y resultados.json para probar la carga de votantes y resultados.
+## ▶️ Cómo ejecutar
+
+1. Clona el repositorio o descarga los archivos.
+2. Abre una terminal en la carpeta del proyecto.
+3. Ejecuta:
+
+```bash
+python simulador_electoral_modificado.py
+```
+
+## 🗃️ Archivos planos requeridos
+
+### votantes.csv
+
+Archivo CSV con la información de los votantes. Formato de columnas:
+
+
+### resultados.json
+
+Archivo JSON con los resultados de votación. Cada registro contiene:
+
+
+
+## 🧠 Funcionalidades principales
+
+- Registro de jurados por salón, mesa y botón.
+- Carga de votantes desde `votantes.csv`.
+- Registro de asistencia (hora máxima 4:00 PM).
+- Carga de resultados (`.csv` o `.json`).
+- Búsqueda de votantes y jurados por cédula.
+- Estadísticas por salón y votación usando `pandas`.
+- Gráficos automáticos con `matplotlib`.
+
+## 💾 Guardado y carga
+
+- Puedes guardar la estructura del centro de votación y cargarla luego desde un archivo `.json`.
